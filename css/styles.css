@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body, html {
+    overflow-x: hidden;
+    margin: 0;    
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+/*nav*/
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar.navbar-default {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FCFCFC;
+    text-shadow: 1px 1px 2px #0a0a0a;
+    transition: all .5s;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: rgba(255, 255, 255, .2);
+    color:white;
+}
+
+.navbar.navbar-fixed-top {
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    margin-top: 5px;
+}
+
+.navbar li {
+    margin-top:10px;
+}
+
+.nav-tabs li a{
+    color: white;
+}
+
+/*end of nav*/
+
+/*carousel*/
+.carousel {
+	margin-bottom: 60px;
+}
+
+.item {
+    background-attachment: fixed;
+}
+
+.slide-one {
+	background-image: url(../img/wood-2.jpg);
+}
+
+.slide-two {
+	background-image: url(../img/restaurant-2.jpg);
+}
+
+.slide-three {
+	background-image: url(../img/farm-2.jpg);
+}
+
+.carousel-inner .item {
+	height: 600px;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.slide-one-logo {
+	max-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 110px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F8512F;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #D34326;
+    border-color: transparent;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.71);
+    font-weight: 400;
+}
+
+/*end of carousel*/
+
+/*our story*/
+#our-story {
+    min-height: 600px;
+}
+
+#our-story .row {
+    margin-top: 30px;
+}
+
+#our-story h1 {
+    font-family: 'Lobster', cursive;
+    color: #F8512F;
+    font-size: 85px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+#our-story h2 {
+    font-size: 28px;
+    padding-left: 12px;
+    margin-top: -15px;
+}
+
+#our-story p {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+h3.story-year {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 150px;
+    color: rgba(149, 147, 147, .2);
+    position: absolute;
+    z-index: -1;
+}
+
+.text {
+    margin-top: 120px;
+}
+
+/*end of our story*/
+
+/*review*/
+#review {
+    background-image: url(../img/food_review.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+}
+
+#review .center {
+    float: none;
+    margin: 0 auto;
+    background-color: rgba( 20, 20, 20, .6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#review h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: #F8512F;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*end of review*/
+
+/*menu*/
+#menu {
+    background-image: url(../img/black_linen.png);
+    background-size: cover;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+#menu h2{
+    color: white;
+    margin-bottom: 25px;
+}
+
+#menu button {
+    margin-top: 50px;
+}
+
+.food {
+    background-color: #fff;
+    padding-top: 20px;
+    height: 475px;
+    padding-bottom: 20px;
+}
+
+/*end of menu*/
+
+/*modal*/
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+/*end of modal*/
+
+/*Map*/
+#mapLocation {
+    /*background-image: url("../img/location-placeholder.jpg");*/
+    height: 483px;
+    background-position: center;
+}
+
+#mapLocation ul{
+    display: none;
+}
+
+
+hr {
+    border-color: #a5a5a5;
+}
+
+#mapLocation h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;    
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+#mapLocation h3 {
+    font-size: 20px;
+    text-align: center;    
+    font-weight: bold;
+}
+
+#mapLocation row {
+    text-align: center;
+}
+
+#mapLocation p {
+    text-align: center;
+    font-size: 17.5px;
+    padding-bottom: 15px;
+}
+
+#mapLocation .col-md-6 {
+    padding: 0;
+}
+
+/*End of map*/
+
+/*Footer*/
+footer {
+    padding: 25px 0;
+    background-color: #F8512F;
+    color: white;
+    text-align: center;    
+    font-size: 15px;
+}
+
+footer ul {
+    display: table;
+    margin: 25px auto;
+    padding: 0;
+}
+
+footer ul:first-child i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: calc(7.5px / 2);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+footer li {
+    display: inline-table;
+    margin: 0 10px;
+    transition: all .3s ease-in-out;
+    border-radius: calc(7.5px / 2);
+}
+
+footer li:hover {
+    transform: scale(1.3);
+}
+
+footer li:nth-of-type(1):hover {
+    background-color: #5EA9DD;
+}
+
+footer li:nth-of-type(4):hover {
+    background-color: #3B579D;
+}
+
+footer li:nth-of-type(2):hover {
+    background-color: #814B3A;
+}
+
+footer li:nth-of-type(3):hover {
+    background-color: #bf2e1b;    
+}
+
+/*end of footer*/
+
+
+/*@media*/
+@media (max-width: 800px){
+    .navbar-brand img{
+        display:block;
+        width: 100%;
+        margin: auto;
+    }
+    .navbar-toggle{
+        float:left;
+        margin-top: 16px;
+        
+        margin: 15px 20px;
+    }
+    #mapLocation .col-md-6:first-child{
+        padding-bottom: 100px;
+    }
+    #mapLocation iframe{
+        height: 500px;
+    }
+    footer{
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+    #mapLocation ul{
+        display: block;
+    }
+    
+    #mapLocation ul {
+        display: table;
+        margin: 25px auto;
+        padding: 0;
+    }
+    
+    #mapLocation ul:first-child i {
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        border-radius: calc(7.5px / 2);
+        text-align: center;
+        line-height: 30px;
+        color: white;
+    }
+    
+    #mapLocation li {
+        display: inline-table;
+        margin: 0 10px;
+        transition: all .5s ease-in-out;
+        border-radius: calc(7.5px / 2);
+        font-size: 30px;
+    }
+    #our-story h1, h2{
+        text-align: center;
+    }
+   
+}
